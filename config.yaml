@@ -1,0 +1,19 @@
+artifacts_root : artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: "https://physionet.org/static/published-projects/ptb-xl/ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3.zip"
+  local_data_file: artifacts/data_ingestion/ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3.zip
+  unzip_dir:  artifacts/data_ingestion
+
+
+data_transformation:
+  root_dir: artifacts/data_transformation
+  data_path: artifacts/data_ingestion/ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3
+  ptbxl_csv_path: artifacts/data_ingestion/ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3/ptbxl_database.csv
+  scp_csv_path: artifacts/data_ingestion/ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3/scp_statements.csv
+  superclass_csv_data: artifacts/data_transformation/superclass_combined_database.csv
+  ecg_data_path: "artifacts/data_transformation/wfdb_ECG_data/X-numpy_ecg.npy"
+  
+  
+
