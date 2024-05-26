@@ -18,7 +18,7 @@ setuptools.setup(
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHORE_EMAIL,
-    description="A small project to demonstarte MLOPS",
+    description="This is a major project ",
     long_description=long_description,
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     project_urls={

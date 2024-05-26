@@ -7,7 +7,7 @@ This project aims to classify electrocardiogram (ECG) signals using both traditi
 - Python 3.10.13
 - Conda
 ## Directory Structure
-- **src/mlproject**: Contains the core ML code.
+- **src/heartDiseaseClassification**: Contains the core ML code.
 - **config**: Configuration files for the project.
 - **research**: Jupyter notebooks for experimentation.
 <!-- - **templates** and **static**: Files for the web interface. -->
@@ -24,12 +24,12 @@ This project aims to classify electrocardiogram (ECG) signals using both traditi
     - Complex CNN (ECG-Classifier)
 
 ## Dataset
-The project uses the PTB-XL dataset, which contains 12-lead ECG recordings from patients with various cardiac conditions.
+The project uses the PTB-XL dataset, which contains 12-lead ECG recordings from patients with various cardiac conditions. [Link](https://physionet.org/content/ptb-xl/1.0.3/)
 
 ## Results
 - The Complex CNN (ECG-Classifier) model achieved the best performance with an 80% classification accuracy and a 90% ROC-AUC.
 
-<!-- 
+
 ## Setup Instructions
 
 ### Step 1: Clone the Repository
@@ -63,7 +63,7 @@ export MY_VARIABLE=my_value
 ```bash
 python app.py
 ```
-Open your web browser and navigate to `http://localhost:5000` to access the application. -->
+Open your web browser and navigate to `http://localhost:5000` to access the application.
 
 
 

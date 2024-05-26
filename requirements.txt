@@ -6,10 +6,16 @@ numpy==1.26.4
 pandas==2.2.1
 python_box==7.1.1
 PyYAML==6.0.1
-PyYAML==6.0.1
 scikit_learn==1.4.0
 setuptools==68.2.2
 torch==2.2.1
 torchvision==0.17.1
 wfdb==4.1.2
 xgboost==2.0.3
+notebook
+matplotlib
+python-box
+pathlib
+tqdm
+types-pyYAML
+-e .
