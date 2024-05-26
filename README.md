@@ -49,16 +49,6 @@ conda activate ecg_classification
 pip install -r requirements.txt
 ```
 
-### Step 4: Set Up Environment Variables
-In Conda environment:
-```bash
-conda env config vars set MY_VARIABLE=my_value
-```
-In standard Python environment:
-```bash
-export MY_VARIABLE=my_value
-```
-
 ### Step 5: Run the Application
 ```bash
 python app.py
